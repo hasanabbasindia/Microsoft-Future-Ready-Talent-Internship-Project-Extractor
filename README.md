@@ -127,4 +127,14 @@ streamlit run main_script.py
 
 ![Screenshot 2023-10-21 004815](https://github.com/sho6000/Extractor/assets/122631521/c865ee66-c2ab-426b-b39a-76fbd633ae4e)
 
+## **Account IDs**
+**Git Hub ID:** hasanabbasindia
+
+**Azure Account ID:** ali.editz.official@gmail.com
+
+## **Acknowledgements**
+1. My sincere thanks, to Microsoft for an impressive static web apps service and ai services such as azure-cognitive-services-computer-vision on MS Azure Cloud/azure_portal to deploy my web app easily with it's ai services. 
+2. It was a wonderful experience learning this and would like to explore more in next years of my B.Tech. Sincere appreciation to Team of Future Ready Talent who supported and encouraged us to work on this project.
+3. Thank you very much for mentor session which have helped me a lot and means a lot.
+
 
