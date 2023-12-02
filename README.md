@@ -1,4 +1,4 @@
-# Extractor
+# Hasan's Extractor
 
 ## Features
 
@@ -10,8 +10,8 @@
 
 ## Project Details
 
-- [Project Demo Link Here](https://extractor9000.azurewebsites.net/)
-- [Project Video Tutorial Link](https://youtu.be/bao-gvTKyGc?si=9KZ_3fMeWG69SUF3)
+- [Project Demo Link Here](https://hasansextractor.azurewebsites.net/)
+- [Project Video Tutorial Link](https://youtu.be/coming_soon)
 
 ## Azure Services Used
 
@@ -26,24 +26,23 @@
   * **Azure Computer Vision**: To perform optical character recognition(OCR) and extract text from images or documents.
 * **Azure App Service**: To host the streamlit on Azure portal.
 
-![Screenshot 2023-10-20 004332](https://github.com/sho6000/Extractor/assets/57789899/88af003a-6551-4bd5-ae04-b6523e8f55a3)
+![Screenshot 2023-12-02 at 8 41 50 PM](https://github.com/hasanabbas-blr/Microsoft-Future-Ready-Talent-Internship-Project-Hasans-Extractor/assets/150517265/65b6a8d6-b819-4bcc-9624-768bc9d5078f)
 ---
 ### Azure AI Services | Computer Vision
 - In this project, this service is employed to perform character extraction on images(PNG, JPEG). It can effortlessly extract text from the mentioned and even PDF files. With its robust capabilities, it's an essential component for extracting text from scanned documents or images and making it available for further processing within your application.
 - It takes in any type of document or images written in English and is sent to the service to extract data from it
 - Inside Computer Vision Studio under the Optical Character Recognition , the feature Extract Text from Image is used to do the work of getting any complicated written text from the different formates.
-![Screenshot 2023-10-20 235851](https://github.com/sho6000/Extractor/assets/122631521/155ba48c-6f29-4bfe-be7b-d458e617c2fa)
+![Screenshot 2023-12-02 at 8 49 50 PM](https://github.com/hasanabbas-blr/Microsoft-Future-Ready-Talent-Internship-Project-Hasans-Extractor/assets/150517265/511ab307-65e0-43c3-8a31-8d3f3a60273a)
 
 
 - The given image below is the example of an extracted text from a pdf file into a json format
-![Screenshot 2023-10-21 001322](https://github.com/sho6000/Extractor/assets/122631521/4f78e975-32ee-4a5b-8d03-d839f4e4a6b8)
-![Screenshot 2023-10-21 000643](https://github.com/sho6000/Extractor/assets/122631521/9d00f13c-4196-422b-8d17-e804d6f9c6ab)
+![Screenshot 2023-12-02 at 8 53 25 PM](https://github.com/hasanabbas-blr/Microsoft-Future-Ready-Talent-Internship-Project-Hasans-Extractor/assets/150517265/0f83db4b-799a-4ea7-aa1c-e938387db076)
 
 
 - After the text is extracted it sent one by one inside a for-loop to the Azure Translator API.
 - Below given is the Azure postal under Computer Vision:
-![Screenshot 2023-10-20 004839](https://github.com/sho6000/Extractor/assets/57789899/1dc11a05-88ed-404a-8a00-5e5d07c5c861)
-![Screenshot 2023-10-20 004646](https://github.com/sho6000/Extractor/assets/57789899/aeae7727-2bf6-4c09-a95a-f09c70abdb20)
+![Screenshot 2023-12-02 at 8 55 53 PM](https://github.com/hasanabbas-blr/Microsoft-Future-Ready-Talent-Internship-Project-Hasans-Extractor/assets/150517265/3d4d905a-673e-4b89-91d3-99b4658f3b73)
+![Screenshot 2023-12-02 at 8 41 59 PM](https://github.com/hasanabbas-blr/Microsoft-Future-Ready-Talent-Internship-Project-Hasans-Extractor/assets/150517265/de791cad-f301-43da-aebe-5ee76901f8ff)
 
 ---
 ### Azure AI Services | Translator
@@ -52,11 +51,11 @@
 - In this the extracted text is sent and then each line-by-line is translated from English to any preferred language provided in the application.
 
 - Below given image is an example of the translated English text into "Spanish" and like-wise the user can translated into any desired language from English to any language. This is the translated language from the previous previous example in a JSON format.
-![Screenshot 2023-10-21 000717](https://github.com/sho6000/Extractor/assets/122631521/f4767cb9-5d94-4442-8a11-8fd1668c8fed)
+![Screenshot 2023-12-02 at 8 57 46 PM](https://github.com/hasanabbas-blr/Microsoft-Future-Ready-Talent-Internship-Project-Hasans-Extractor/assets/150517265/8d769f4b-75c6-447b-bd48-2a79ffce29e3)
 - Below given is the Azure postal under Translator:
 
-![Screenshot 2023-10-20 004813](https://github.com/sho6000/Extractor/assets/57789899/9d46453f-0e3f-45e1-ae9e-def553f3e60a)
-![Screenshot 2023-10-20 004813](https://github.com/sho6000/Extractor/assets/57789899/911a7548-4248-496c-aef1-ab13f9b7d8e3)
+![Screenshot 2023-12-02 at 8 59 09 PM](https://github.com/hasanabbas-blr/Microsoft-Future-Ready-Talent-Internship-Project-Hasans-Extractor/assets/150517265/c92f1d9a-c6b0-4640-a207-3c7eddece96b)
+![Screenshot 2023-12-02 at 8 42 13 PM](https://github.com/hasanabbas-blr/Microsoft-Future-Ready-Talent-Internship-Project-Hasans-Extractor/assets/150517265/05550de1-e9d9-4827-8e1f-b055382f2e01)
 
 ---
 ### Azure App Service
@@ -65,10 +64,10 @@
 - The entire code related from extraction, translations to Streamlit(web-application) is pushed to the Github.
 - After the code is pushed successfully, the github project URL is then given to the Azure App service and then the deployment starts automatically.
 - Below is the deployment status of the website.
-![Screenshot 2023-10-21 002809](https://github.com/sho6000/Extractor/assets/122631521/6fa8a094-d682-4c74-aec2-7929e770d441)
+![Screenshot 2023-12-02 at 5 09 42 PM](https://github.com/hasanabbas-blr/Microsoft-Future-Ready-Talent-Internship-Project-Hasans-Extractor/assets/150517265/553345b4-4841-472e-aa88-4a58db01f9ce)
 - Below given is the Azure postal under App Service:
 
-![Screenshot 2023-10-20 004919](https://github.com/sho6000/Extractor/assets/57789899/5543d46d-0074-4ff3-83df-622da778072d)
+![Screenshot 2023-12-02 at 9 03 15 PM](https://github.com/hasanabbas-blr/Microsoft-Future-Ready-Talent-Internship-Project-Hasans-Extractor/assets/150517265/031b3223-6bd8-4bee-a6cb-d1e89b76dcd1)
 ---
 
 ## Python Package
@@ -105,25 +104,36 @@ streamlit run main_script.py
 
 ## Steps to Use
 - First  we select any image or PDF to upload by clicking on the **Browse files** button.
-![Screenshot 2023-10-20 012629](https://github.com/sho6000/sho6000/assets/57789899/bb8624b5-a4b6-4300-9e5a-bcba3bb02adf)
+![Screenshot 2023-12-02 at 9 04 43 PM](https://github.com/hasanabbas-blr/Microsoft-Future-Ready-Talent-Internship-Project-Hasans-Extractor/assets/150517265/1ba0718b-2283-413c-a244-e87a05631ff1)
 ---
 - After the the file is selected then the **Azure AI Computer Vision** processes and then a extracted text is displayed below.
-![Note](https://github.com/sho6000/Extractor/assets/122631521/2f4e3c8c-ba31-40a2-881c-ba1d471e553b)
+![sample_azure](https://github.com/hasanabbas-blr/Microsoft-Future-Ready-Talent-Internship-Project-Hasans-Extractor/assets/150517265/c6174bbd-dfe1-4ddc-b449-ac96ce43e858)
 ---
 - **This is the extracted text from the above image:**
-![Screenshot 2023-10-21 004420](https://github.com/sho6000/Extractor/assets/122631521/48ae59b9-f9dc-4411-9ef5-9d6ed849273f)
+![Screenshot 2023-12-02 at 9 06 16 PM](https://github.com/hasanabbas-blr/Microsoft-Future-Ready-Talent-Internship-Project-Hasans-Extractor/assets/150517265/cfc51d04-9227-41fb-8491-043a43fdc497)
 ---
 - Then we go down and select the preferred language you want to translate.
 - Once that is selected the **Azure AI Translator API** translates and displays the text below.
-- **In this example I have chosen Arabic:**
-![Screenshot 2023-10-21 004641](https://github.com/sho6000/Extractor/assets/122631521/0cf753fa-2358-4609-a42f-7d68c4be260d)
+- **In this example I have chosen Hindi and Arabic:**
+![Screenshot 2023-12-02 at 9 07 38 PM](https://github.com/hasanabbas-blr/Microsoft-Future-Ready-Talent-Internship-Project-Hasans-Extractor/assets/150517265/dd2c79a1-47d2-4833-8f69-8e0c56efe4bf)
+![Screenshot 2023-12-02 at 9 08 20 PM](https://github.com/hasanabbas-blr/Microsoft-Future-Ready-Talent-Internship-Project-Hasans-Extractor/assets/150517265/c47e49cd-d52a-4fa5-80fb-3902ac2be5e7)
+
 ---
 
 
 ## Screenshots
 
-![Screenshot 2023-10-21 004839](https://github.com/sho6000/Extractor/assets/122631521/4586f45c-7d1f-41d4-bb91-0de322e5d442)
+![Screenshot 2023-12-02 at 9 09 34 PM](https://github.com/hasanabbas-blr/Microsoft-Future-Ready-Talent-Internship-Project-Hasans-Extractor/assets/150517265/0542c4c7-3393-4c4e-affb-d1ef48887ece)
 
-![Screenshot 2023-10-21 004815](https://github.com/sho6000/Extractor/assets/122631521/c865ee66-c2ab-426b-b39a-76fbd633ae4e)
+![Screenshot 2023-12-02 at 9 09 44 PM](https://github.com/hasanabbas-blr/Microsoft-Future-Ready-Talent-Internship-Project-Hasans-Extractor/assets/150517265/a7d7c363-f308-40e7-94da-ae5e57447df9)
 
 
+
+
+## **Account IDs**
+**Git Hub ID:** hasanabbas-blr
+
+**Azure Account ID:** hasanabbasofficial2@gmail.com
+
+## **Acknowledgements**
+My sincere thanks, to Microsoft for an impressive static web apps service on MS Azure Cloud to deploy my website easily. It was a wonderful experience learning this and would like to explore more in next years of my B.Tech. Sincere appreciation to Team of Future Ready Talent who supported and encouraged us to work on this project. 
