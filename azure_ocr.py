@@ -13,8 +13,8 @@ global cv_client
 load_dotenv()
 # Get Configuration Settings
 
-cog_vision_endpoint = os.getenv("COG_VISION_ENDPOINT")
-cog_vision_key = os.getenv("COG_VISION_KEY")
+cog_vision_endpoint = "https://visionpro8000.cognitiveservices.azure.com/"
+cog_vision_key = 'aa2205711bcc462b802153d74e4a37e7'
 
 #To fix this error, you need to modify the GetTextRead function to accept the binary data of the image directly,
 #  instead of a file path. Then, you can use the image_data directly in the function, without the need for the open() function.
