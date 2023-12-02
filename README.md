@@ -1,5 +1,7 @@
 # Hasan's Extractor
 
+##Note: Changing bg color now.
+
 ## Features
 
 - Extract text from images or documents using Azure AI Computer Vision.
