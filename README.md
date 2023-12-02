@@ -11,7 +11,7 @@
 ## Project Details
 
 - [Project Demo Link Here](https://hasansextractor.azurewebsites.net/)
-- [Project Video Tutorial Link](https://youtu.be/coming_soon)
+- [Project Video Tutorial Link](https://youtu.be/HulJI52bx5Q)
 
 ## Azure Services Used
 
