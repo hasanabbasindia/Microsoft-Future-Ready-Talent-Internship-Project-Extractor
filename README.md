@@ -1,6 +1,6 @@
 # Hasan's Extractor
 
-##Note: Changing bg color now.
+## Note: Changing bg color now.
 
 ## Features
 
