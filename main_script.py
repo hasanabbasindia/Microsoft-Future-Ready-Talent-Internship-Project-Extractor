@@ -33,11 +33,72 @@ cus_css = """
         border-radius: 5px !important;
     }
     [data-testid="stAppViewContainer"] {
-    background-color: #de8912;
-opacity: 0.9;
-background-image:  linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077), linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077);
-background-size: 80px 140px;
-background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;}
+            font-size: .8em;
+            background-color: #2289;
+            background-image:
+                /* <> */
+                linear-gradient(
+                    25deg,
+                    transparent 65%,
+                    hsla(205,80%,40%,1),
+                    transparent 70%
+                ),
+                linear-gradient(
+                    -25deg,
+                    transparent 65%,
+                    hsla(205,80%,40%,1),
+                    transparent 70%
+                ),
+                linear-gradient(
+                    -25deg,
+                    transparent 30%,
+                    hsla(205,80%,40%,1),
+                    transparent 35%
+                ),
+                linear-gradient(
+                    25deg,
+                    transparent 30%,
+                    hsla(205,80%,40%,1),
+                    transparent 35%
+                ),      
+                
+                /* ◊ */
+                linear-gradient(
+                    65deg,
+                    transparent 65%,
+                    hsla(205,80%,40%,1),
+                    transparent 70%
+                ),
+                linear-gradient(
+                    -65deg,
+                    transparent 65%,
+                    hsla(205,80%,40%,1),
+                    transparent 70%
+                ),
+                linear-gradient(
+                    -65deg,
+                    transparent 30%,
+                    hsla(205,80%,40%,1),
+                    transparent 35%
+                ),
+                linear-gradient(
+                    65deg,
+                    transparent 30%,
+                    hsla(205,80%,40%,1),
+                    transparent 35%
+                );
+            background-size: 
+                5em 2em,
+                5em 2em,
+                5em 2em,
+                5em 2em,
+                
+                2em 5em,
+                2em 5em,
+                2em 5em,
+                2em 5em;
+            opacity: 0.9;
+        }
     """
 # Load environment variables from .env file
 load_dotenv()
