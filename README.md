@@ -1,6 +1,4 @@
-# Hasan's Extractor
-
-## Note: Changing bg color now.
+# Text Extractor
 
 ## Features
 
@@ -12,8 +10,8 @@
 
 ## Project Details
 
-- [Project Demo Link Here](https://hasansextractor.azurewebsites.net/)
-- [Project Video Tutorial Link](https://youtu.be/HulJI52bx5Q)
+- [Project Demo Link Here](https://textractor.azurewebsites.net/)
+- [Project Video Tutorial Link](https://youtu.be/coming_soon) //coming soon
 
 ## Azure Services Used
 
