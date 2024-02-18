@@ -11,7 +11,7 @@
 ## Project Details
 
 - [Project Demo Link Here](https://textractor.azurewebsites.net/)
-- [Project Video Tutorial Link](https://youtu.be/coming_soon) //coming soon
+- [Project Video Tutorial Link](https://youtu.be/GcEk-7DMi3E) Added Later*
 
 ## Azure Services Used
 
